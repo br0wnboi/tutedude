@@ -47,14 +47,14 @@ Where:
 
 -----
 
-#### 4.0 John the Ripper
+#### 4. John the Ripper
 `john --format=raw-md5 --wordlist=example.dic example.hash`
 Where:
 `--format=MD5` defines the hash format as MD5
 `--wordlist=example.dic` defines the dictionary file to use for cracking, mostly _rockyou.txt_
 
 -----
-#### 5.0 Hashid
+#### 5. Hashid
 `hashid -m -j -o hashid.txt enteryourhashhere`
 Where:
 `-m` shows corresponding mode in hashcat
