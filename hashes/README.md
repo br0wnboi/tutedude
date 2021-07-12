@@ -38,25 +38,25 @@ sth -t "hash-here"
 
 #### 3. Hashcat
 
-`hashcat -a 0 -m 400 example400.hash example.dict`
-Where:
-`-a` uses Straight mode
-`-m 0` defines which mode to use, 0 is for MD5 
-`example.hash` is your hashfile
-`example.dic` is your bruteforce dictionary, mostly _rockyou.txt_
+`hashcat -a 0 -m 400 example400.hash example.dict`<br>
+Where:<br>
+`-a` uses Straight mode<br>
+`-m 0` defines which mode to use, 0 is for MD5 <br>
+`example.hash` is your hashfile<br>
+`example.dic` is your bruteforce dictionary, mostly _rockyou.txt_<br>
 
 -----
 
 #### 4. John the Ripper
-`john --format=raw-md5 --wordlist=example.dic example.hash`
-Where:
-`--format=MD5` defines the hash format as MD5
-`--wordlist=example.dic` defines the dictionary file to use for cracking, mostly _rockyou.txt_
+`john --format=raw-md5 --wordlist=example.dic example.hash`<br>
+Where:<br>
+`--format=MD5` defines the hash format as MD5<br>
+`--wordlist=example.dic` defines the dictionary file to use for cracking, mostly _rockyou.txt_<br>
 
 -----
 #### 5. Hashid
-`hashid -m -j -o hashid.txt enteryourhashhere`
-Where:
-`-m` shows corresponding mode in hashcat
-`-j` shows corresponding mode in john
-`-o` saves the output to a specified file
+`hashid -m -j -o hashid.txt enteryourhashhere`<br>
+Where:<br>
+`-m` shows corresponding mode in hashcat<br>
+`-j` shows corresponding mode in john<br>
+`-o` saves the output to a specified file<br>
