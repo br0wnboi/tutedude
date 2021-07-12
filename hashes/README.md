@@ -7,11 +7,11 @@
 
 ||Name|Link|Usage|
 |-----|-----|-----|----|
-|1|Crackstation|[Website](https://crackstation.net)|[Click here](#Crackstation)
-|2|Search That Hash|[Github](https://github.com/HashPals/Search-That-Hash)
-|3|Hashcat|[Website](https://hashcat.net/hashcat/)
-|4|John The Ripper|[Website](https://www.openwall.com/john/)
-|5| Hashid | [Website](https://psypanda.github.io/hashID/)
+|1|Crackstation|[Website](https://crackstation.net) | [Click here](#1-crackstation) |
+|2|Search That Hash|[Github](https://github.com/HashPals/Search-That-Hash) | [Click here](#2-search-that-hash) |
+|3|Hashcat|[Website](https://hashcat.net/hashcat/) | [Click here](#3-hashcat) |
+|4|John The Ripper|[Website](https://www.openwall.com/john/) | [Click here](#4-john-the-ripper) |
+|5| Hashid | [Website](https://psypanda.github.io/hashID/) | [Click here](#5-hashid) |
 
 ### Usage:
 #### 1. Crackstation
